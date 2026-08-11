@@ -4,21 +4,14 @@
 
 [![点赞](https://img.shields.io/github/stars/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?label=%E7%82%B9%E8%B5%9E)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)  [![最近提交](https://img.shields.io/github/last-commit/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/commits/main)  [![最新版本](https://img.shields.io/github/release/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases/latest)  [![许可证](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/blob/main/LICENSE)  [![下载量](https://img.shields.io/github/downloads/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/total?label=%E4%B8%8B%E8%BD%BD%E9%87%8F)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
 
-**安装与源码**：[Greasy Fork 安装](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer) · [GitHub 源码](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) · [正式发行版](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
+**快速入口：** [Greasy Fork 安装](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer) · [GitHub 源码](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) · [正式发行版](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases) · [问题反馈](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues)
 
-**支持与反馈**：[为项目添加 GitHub Star](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) · [提交 Greasy Fork 评价](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback) · [提交 GitHub Issue](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues)
+**支持项目：** [为项目添加 GitHub Star](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) · [提交 Greasy Fork 真实评价](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback)
 
-> **V1.0.0 · First Public Release** · Native First · Evidence-Gated · Low Overhead
+如果脚本对你的实际使用有所帮助，欢迎通过 **GitHub Star** 或 **Greasy Fork 真实评价** 支持后续维护。真实反馈也能帮助其他用户更快判断这个脚本是否适合自己。
 
-## 支持项目
-
-如果本项目对你的实际使用有所帮助，可以通过以下方式支持后续维护。
-
-**GitHub Star**  
-[为项目添加 Star](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) —— 可以提升项目在 GitHub 社区中的可见度，帮助更多用户发现项目。
-
-**Greasy Fork 评价**  
-[提交真实使用评价](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback) —— 如果实际使用体验符合预期，欢迎选择 **“好 - 脚本运行良好”** 并提交真实评价。
+> **V1.0.0 · First Public Release**  
+> Native First · Evidence-Gated · Low Overhead
 
 ## 核心功能
 
@@ -28,29 +21,32 @@
 - **剧透与页面体验**：处理明确的文字 / 媒体剧透、置顶消息和赞助消息节点，减少不必要的页面干扰。
 - **链接与交互安全**：外部链接默认使用新标签页打开；复制链接时清理常见跟踪参数；Telegram 通话操作增加二次确认，降低误触风险。
 
-## 安装与使用
+## 安装
 
-**推荐安装**  
-[打开 Greasy Fork 正式安装页面](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
+推荐通过 Greasy Fork 正式页面安装：
+
+**[安装 Telegram Ultimate Enhancer](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)**
 
 安装完成后，后续版本可继续通过用户脚本管理器的标准更新机制进行检查和更新。
 
-**源码与历史版本**  
-[查看 GitHub 源码](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) · [查看 GitHub Releases](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
+如需查看源码、版本历史或手动安装：
+
+- [查看 GitHub 源码](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
+- [查看 GitHub Releases](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
+
+## 使用说明
 
 ### 快捷键
 
-- **加速（]）**：视频速度提高 0.25×，最高 4×。
-- **减速（[）**：视频速度降低 0.25×，最低 0.25×。
-- **画中画（P）**：进入 / 退出 Picture-in-Picture。
+- **右方括号 ] · 加速**：视频速度提高 0.25×，最高 4×。
+- **左方括号 [ · 减速**：视频速度降低 0.25×，最低 0.25×。
+- **P · 画中画**：进入 / 退出 Picture-in-Picture。
 
 在输入框、搜索框和可编辑区域中不会触发上述快捷键增强。
 
 ### 适用站点
 
-- **web.telegram.org**
-- **webk.telegram.org**
-- **webz.telegram.org**
+**web.telegram.org** · **webk.telegram.org** · **webz.telegram.org**
 
 ## 设计与性能
 
@@ -61,6 +57,22 @@
 ## 隐私与安全
 
 V1.0.0 不包含用户行为遥测、广告注入、挖矿、后台数据上传或自建媒体分片抓取服务。主要功能直接运行在当前 Telegram Web 页面中。
+
+## 支持项目
+
+### GitHub Star
+
+如果项目对你有帮助，可以在 GitHub 为项目添加 Star，帮助更多用户发现并关注后续更新。
+
+**[为 Telegram Ultimate Enhancer 添加 Star](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)**
+
+### Greasy Fork 评价
+
+如果实际使用体验符合预期，欢迎在 Greasy Fork 留下真实使用评价。
+
+**[提交 Greasy Fork 评价](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback)**
+
+在反馈页面选择与你实际体验相符的评价；如果脚本运行良好，可选择 **“好 - 脚本运行良好”**。
 
 ## 开源许可与项目来源
 
