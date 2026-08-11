@@ -1,0 +1,13 @@
+Historical implementation signatures recorded from Telegram Media Downloader 1.212
+REFRESH_DELAY
+hiddenButtons
+DOWNLOAD_ICON
+FORWARD_ICON
+button.btn-icon.hide
+tel_download_video
+tel_download_audio
+tel_download_image
+contentRangeRegex
+createProgressBar
+showSaveFilePicker
+_next_offset
