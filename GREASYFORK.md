@@ -2,12 +2,10 @@
 
 面向 **Telegram Web** 的轻量综合增强脚本。优先恢复 Telegram 已有原生能力，在不接管媒体下载链的前提下，改善受保护内容复制、媒体播放与常用交互体验。
 
-[![版本](https://img.shields.io/greasyfork/v/590834?style=flat-square&label=%E7%89%88%E6%9C%AC&labelColor=2f3437&color=8b1e1e)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
-[![许可证](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81&labelColor=2f3437&color=6b7280)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/blob/main/LICENSE)
+[![Greasy Fork](https://img.shields.io/badge/Greasy%20Fork-%E5%B7%B2%E5%8F%91%E5%B8%83-8b1e1e?style=flat-square&labelColor=2f3437)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
 [![发行版](https://img.shields.io/github/v/release/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E5%8F%91%E8%A1%8C%E7%89%88&labelColor=2f3437&color=2563eb)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases/latest)
+[![许可证](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81&labelColor=2f3437&color=6b7280)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/blob/main/LICENSE)
 [![最近提交](https://img.shields.io/github/last-commit/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4&labelColor=2f3437&color=6b7280)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/commits/main)
-[![总安装量](https://img.shields.io/greasyfork/dt/590834?style=flat-square&label=%E6%80%BB%E5%AE%89%E8%A3%85%E9%87%8F&labelColor=2f3437&color=8b1e1e)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
-[![评价](https://img.shields.io/greasyfork/rating-count/590834?style=flat-square&label=%E8%AF%84%E4%BB%B7&labelColor=2f3437)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback)
 [![GitHub Star](https://img.shields.io/github/stars/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&logo=github&label=GitHub%20Star&labelColor=2f3437&color=181717)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
 
 **安装与源码**：[Greasy Fork 安装](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer) · [GitHub 源码](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer) · [正式发行版](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
