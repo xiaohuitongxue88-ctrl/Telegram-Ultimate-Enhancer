@@ -3,10 +3,25 @@
 Telegram Web 低开销综合增强工具：恢复有充分证据支持的原生下载/转发动作，解除受保护内容复制与右键限制，并提供剧透解除、倍速、画中画、外链净化和防误拨。
 
 [![Greasy Fork 版本](https://img.shields.io/greasyfork/v/590834?style=flat-square&label=Greasy%20Fork%20%E7%89%88%E6%9C%AC)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
-[![Greasy Fork 总安装量](https://img.shields.io/greasyfork/dt/590834?style=flat-square&label=%E6%80%BB%E5%AE%89%E8%A3%85%E9%87%8F)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
+[![Greasy Fork 总安装量](https://img.shields.io/greasyfork/dt/590834?style=flat-square&label=%E6%80%BB%E5%AE%89%E8%A3%85%E9%87%8F&color=blue)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
 [![GitHub Stars](https://img.shields.io/github/stars/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&logo=github&label=GitHub%20Stars)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
 [![GitHub Release](https://img.shields.io/github/v/release/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=GitHub%20Release)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases/latest)
 [![License](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=License)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/blob/main/LICENSE)
+
+## ⭐ 喜欢这个项目？欢迎支持
+
+如果脚本确实对你有帮助，欢迎花几秒钟支持项目。你的 Star 和真实好评会帮助更多 Telegram Web 用户发现它。
+
+[![GitHub Star](https://img.shields.io/badge/GitHub-%E7%82%B9%E4%B8%AA%20Star-181717?style=for-the-badge&logo=github)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
+[![Greasy Fork 好评](https://img.shields.io/badge/Greasy%20Fork-%E7%95%99%E4%B8%8B%E5%A5%BD%E8%AF%84-2ea44f?style=for-the-badge)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback)
+
+**⭐ GitHub：** 点击上方 **“GitHub · 点个 Star”**，进入仓库后点击右上角 `Star`。
+
+**👍 Greasy Fork：** 点击上方 **“Greasy Fork · 留下好评”**，如果脚本运行良好，请选择 **“好 - 脚本运行良好”** 并提交真实使用评价。
+
+> 感谢每一位真实使用、反馈问题、提交好评或为项目点 Star 的用户。你的支持会直接帮助项目持续维护，并让更多用户看到它。
+
+---
 
 > **V1.0.0 · First Public Release · Low Overhead / Native First**
 >
@@ -107,17 +122,12 @@ GitHub Releases：
 
 ## 支持项目
 
-如果这个项目对你有帮助，欢迎在 GitHub 为项目点一个 **Star**：
+如果你已经实际使用过本脚本，并且它确实解决了你的问题，欢迎继续通过下面两个正式渠道支持项目：
 
-[![Star on GitHub](https://img.shields.io/github/stars/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=for-the-badge&logo=github&label=Star%20on%20GitHub)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
+- **GitHub Star**：https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer
+- **Greasy Fork 真实评价**：https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback
 
-GitHub Star 属于 GitHub 账户级操作。点击上面的按钮会进入项目仓库，登录 GitHub 后点击右上角 **Star** 即可完成支持。
-
-如果你正在 Greasy Fork 使用本脚本，也欢迎通过脚本页面的 **反馈** 功能提交评价：
-
-**https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer/feedback**
-
-在反馈页面选择 **“好 - 脚本运行良好”** 并提交，即会计入 Greasy Fork 的正面评价统计。
+GitHub Star 属于 GitHub 账户级操作，需要用户本人在 GitHub 页面完成；Greasy Fork 评价也需要用户本人选择与实际体验相符的评价并提交。
 
 ---
 
