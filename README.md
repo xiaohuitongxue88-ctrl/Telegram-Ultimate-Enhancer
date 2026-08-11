@@ -4,9 +4,9 @@ Telegram Web 低开销综合增强工具：原生媒体动作恢复、受保护�
 
 [![点赞](https://img.shields.io/github/stars/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&logo=github&label=%E7%82%B9%E8%B5%9E)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/stargazers)
 [![最近提交](https://img.shields.io/github/last-commit/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/commits/main)
+[![最新版本](https://img.shields.io/github/v/release/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases/latest)
 [![许可证](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](./LICENSE)
-[![Issues](https://img.shields.io/github/issues/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=Issues)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues)
-[![仓库大小](https://img.shields.io/github/repo-size/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E4%BB%93%E5%BA%93%E5%A4%A7%E5%B0%8F)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
+[![下载量](https://img.shields.io/github/downloads/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/total?style=flat-square&label=%E4%B8%8B%E8%BD%BD%E9%87%8F)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
 
 > **V1.0.0 · AUTOMATED PASS / LIVE PASS**  
 > 已完成自动化检查及真实 Chrome + Tampermonkey + Telegram Web 现场回归。
