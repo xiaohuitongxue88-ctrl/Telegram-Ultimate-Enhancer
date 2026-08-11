@@ -1,90 +1,70 @@
 # Telegram Ultimate Enhancer / Telegram 终极增强器
 
-Telegram Web 的低开销增强 Userscript。项目优先恢复 Telegram 已存在的原生能力，不实现自有媒体分段下载器，并在不持续轮询页面的前提下提供复制、媒体查看与交互增强。
+Telegram Web 低开销综合增强工具：原生媒体动作恢复、受保护内容复制、播放增强与安全交互。
 
-## V1.0.0 核心功能
+[![点赞](https://img.shields.io/github/stars/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&logo=github&label=%E7%82%B9%E8%B5%9E)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/stargazers)
+[![最近提交](https://img.shields.io/github/last-commit/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/commits/main)
+[![许可证](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](./LICENSE)
+[![Issues](https://img.shields.io/github/issues/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=Issues)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues)
+[![仓库大小](https://img.shields.io/github/repo-size/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E4%BB%93%E5%BA%93%E5%A4%A7%E5%B0%8F)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer)
 
-- 在证据充分时恢复 Telegram 媒体查看器中被限制的原生下载/转发动作。
-- 解除受保护频道文本选择、Ctrl+C 和浏览器原生右键复制限制。
-- 解除明确的文字/媒体剧透遮罩。
-- 视频倍速快捷键：`]` 加速、`[` 减速。
-- `P` 切换浏览器画中画（浏览器支持时）。
-- 外部 HTTP/HTTPS 链接默认在新标签页打开，并保留 Ctrl/Shift/Alt/Meta 等原生修饰键行为。
-- 复制“整个选区就是一个 URL”时，可清理常见跟踪参数。
-- Telegram 通话按钮增加二次确认，降低误拨风险。
-- 可隐藏明确的置顶/赞助消息节点。
-- GPU Safe 单实例 Toast：不使用 blur、transform 动画或持续渲染循环。
+> **V1.0.0 · AUTOMATED PASS / LIVE PASS**  
+> 已完成自动化检查及真实 Chrome + Tampermonkey + Telegram Web 现场回归。
 
-## 为什么不自建下载器
+## 核心能力
 
-V1.0.0 不实现 Range Fetch、Blob 分片拼接、自建下载按钮或下载进度条。对于 Telegram 已经存在但被限制隐藏的原生动作，脚本仅在身份和上下文证据达到门槛时做最小恢复，然后继续由 Telegram 自身处理实际下载/转发流程。
-
-## 低资源设计
-
-脚本采用 MutationObserver 增量监听：Observer 回调只收集新增 Element，后续由有界队列批量处理。队列具有去重、祖先覆盖后代、批次上限和软上限，不使用 500ms 周期扫描，也不使用 requestAnimationFrame 自旋。
-
-原生动作判断被拆分为：
-
-`ContextDetector → CandidateCollector → ActionClassifier → VisibilityInspector → EvidenceGate → ActionRestorer`
-
-“按钮是什么动作”和“按钮为什么不可见”分别判断；字体图标字符只作为弱提示，不因为单一隐藏状态或单一字符直接恢复按钮。
+- **原生媒体动作恢复**：在证据充分时恢复 Telegram 已存在但受限制的下载/转发动作，不自建媒体分段下载器。
+- **受保护内容复制**：恢复文本选择、Ctrl+C 与浏览器原生右键复制，并避免干扰输入框、搜索框和编辑器。
+- **播放增强**：支持视频倍速快捷键与浏览器画中画。
+- **链接与交互安全**：外链新标签页打开、复制链接时清理常见跟踪参数、通话操作二次确认。
+- **内容体验优化**：可解除明确的文字/媒体剧透，并处理明确的置顶/赞助节点。
+- **低资源运行**：采用 MutationObserver 增量处理与有界调度，不使用周期性全页扫描和持续渲染循环。
 
 ## 安装
 
-1. 在 Chrome 中安装 Tampermonkey。
-2. 打开 `Telegram-Ultimate-Enhancer.user.js`。
-3. 将完整代码复制到 Tampermonkey 新建脚本并保存。
-4. 打开或刷新 Telegram Web。
+1. 在 Chrome 中安装 **Tampermonkey**。
+2. 打开 [`Telegram-Ultimate-Enhancer.user.js`](./Telegram-Ultimate-Enhancer.user.js)，复制完整代码到 Tampermonkey 新建脚本并保存。
+3. 打开或刷新 Telegram Web。
 
-支持匹配：
-
-- `https://web.telegram.org/*`
-- `https://webk.telegram.org/*`
-- `https://webz.telegram.org/*`
+支持：`web.telegram.org`、`webk.telegram.org`、`webz.telegram.org`。
 
 ## 快捷键
 
-- `]`：当前主要视频播放速度 +0.25×，最高 4×。
-- `[`：当前主要视频播放速度 -0.25×，最低 0.25×。
-- `P`：进入/退出画中画。
+| 快捷键 | 功能 |
+|---|---|
+| `]` | 视频速度 +0.25×，最高 4× |
+| `[` | 视频速度 -0.25×，最低 0.25× |
+| `P` | 进入 / 退出画中画 |
 
-输入框、搜索框、编辑器等可编辑区域不会响应这些快捷键增强。
+可编辑区域不会触发上述快捷键增强。
 
-## 隐私与网络行为
+## 隐私与性能
 
-V1.0.0 不新增远程统计、遥测或后台上传；不自行请求媒体分片；原生下载/转发仍由 Telegram Web 自己处理。
+V1.0.0 不新增远程统计、遥测或后台上传；不自行请求媒体分片。下载与转发仍由 Telegram Web 自身处理。
 
-## 许可证
+脚本采用增量 DOM 监听、队列去重、批次上限和软上限设计，目标是长期运行时保持较低资源占用并尽量减少对原页面的干扰。
 
-GNU GPL v3.0。标准许可证正文见 `LICENSE`。
+## 开源许可与项目来源
 
-针对本项目中由 `xiaohuitongxue` 享有版权或有权附加条款的原创材料，另有基于 GPLv3 Section 7(b)/(c) 的合理署名与来源保留要求，见 `ADDITIONAL_TERMS.md`。它要求传播相关源码或修改版时保留项目作者与官方仓库来源，并明确标记修改版本；该要求不主张第三方代码、Telegram 自身接口、标准浏览器 API 或他人独立实现的相似功能属于本项目。
+本项目采用 **GNU GPL v3.0**，标准许可证见 [`LICENSE`](./LICENSE)。针对本项目中有权附加条款的原创材料，合理署名、原始项目来源保留及修改版标识要求见 [`ADDITIONAL_TERMS.md`](./ADDITIONAL_TERMS.md)。
 
-项目历史与第三方说明见 `THIRD_PARTY_NOTICES.md`。
+项目早期开发曾参考 Nestor Qin / Neet-Nestor 的开源项目 **Telegram Media Downloader**。V1.0.0 已重新设计为增量 DOM + 证据式原生动作恢复架构，不包含其 Range/Blob 下载引擎、下载进度 UI 或周期页面扫描体系。详细历史与第三方说明见 [`THIRD_PARTY_NOTICES.md`](./THIRD_PARTY_NOTICES.md)。
 
-## 来源与项目历史
+Greasy Fork 上已有受限媒体下载、复制、右键解除、画中画、倍速等不同实现，因此本项目不将这些单项功能声明为“全球首创”。**Telegram Ultimate Enhancer V1.0.0** 的“首次公开发布”仅指本项目自身的首次正式公开发布。
 
-本项目早期开发过程中曾参考 Nestor Qin / Neet-Nestor 的开源项目 `Telegram Media Downloader` 对 Telegram Web 受限媒体场景的处理。V1.0.0 已重新设计为增量 DOM + 证据式原生动作恢复架构，不包含该项目的 Range/Blob 下载引擎、下载进度 UI 或周期性页面扫描体系。
+## 技术与审计文档
 
-完整血缘审计见 `docs/CODE_PROVENANCE_AUDIT.md`。
+- [代码血缘审计](./docs/CODE_PROVENANCE_AUDIT.md)
+- [Greasy Fork 生态既有作品横向审计](./docs/ECOSYSTEM_PRIOR_ART_AUDIT.md)
+- [真实环境现场验证](./docs/LIVE_VERIFICATION_CHECKLIST.md)
+- [V1.0.0 发布验证](./docs/RELEASE_VERIFICATION.md)
+- [更新记录](./CHANGELOG.md)
 
-## 生态既有作品与定位边界
+## 官方地址
 
-Greasy Fork 上早已存在 Telegram 受限媒体下载、受保护文本复制、右键保护解除、画中画、视频倍速和广告处理等不同实现。本项目不把这些单项功能声明为“全球首创”或“首次出现”。
+**Repository**：https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer  
+**Issues**：https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues
 
-V1.0.0 的定位是：**由 xiaohuitongxue 首次公开发布并维护的独立 Telegram Ultimate Enhancer 项目**。这里的“首次公开发布”仅指本项目及其 V1.0.0，不代表 Telegram 相关单项功能第一次在互联网上出现。
+---
 
-生态横向审计见 `docs/ECOSYSTEM_PRIOR_ART_AUDIT.md`。
-
-## 官方地址与反馈
-
-- 官方仓库：`https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer`
-- Issues：`https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues`
-
-## 发布状态
-
-V1.0.0 正式首发版：当前工程状态为 `AUTOMATED PASS / LIVE PASS`。
-
-- 自动化语法、源码不变量、血缘阻断扫描均通过；
-- 2026-08-11 已在真实 Chrome + Tampermonkey + Telegram Web 环境完成现场功能回归；
-- 现场验证记录见 `docs/LIVE_VERIFICATION_CHECKLIST.md`。
+Maintained by **xiaohuitongxue** · Licensed under **GNU GPL v3.0**
