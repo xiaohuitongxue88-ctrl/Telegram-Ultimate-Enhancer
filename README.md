@@ -6,10 +6,14 @@ Telegram Web 低开销综合增强工具：原生媒体动作恢复、受保护�
 [![最近提交](https://img.shields.io/github/last-commit/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/commits/main)
 [![最新版本](https://img.shields.io/github/v/release/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases/latest)
 [![许可证](https://img.shields.io/github/license/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer?style=flat-square&label=%E8%AE%B8%E5%8F%AF%E8%AF%81)](./LICENSE)
-[![下载量](https://img.shields.io/github/downloads/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/total?style=flat-square&label=%E4%B8%8B%E8%BD%BD%E9%87%8F)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
+[![GitHub 下载量](https://img.shields.io/github/downloads/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/total?style=flat-square&label=GitHub%20%E4%B8%8B%E8%BD%BD%E9%87%8F)](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)
 
-> **V1.0.0 · AUTOMATED PASS / LIVE PASS**  
-> 已完成自动化检查及真实 Chrome + Tampermonkey + Telegram Web 现场回归。
+[![Greasy Fork 安装](https://img.shields.io/badge/Greasy%20Fork-%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC-brightgreen?style=flat-square)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
+[![Greasy Fork 版本](https://img.shields.io/greasyfork/v/590834?style=flat-square&label=GF%20%E7%89%88%E6%9C%AC)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
+[![Greasy Fork 总安装量](https://img.shields.io/greasyfork/dt/590834?style=flat-square&label=GF%20%E6%80%BB%E5%AE%89%E8%A3%85%E9%87%8F)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
+
+> **V1.0.0 · AUTOMATED PASS / LIVE PASS / GREASY FORK LIVE**  
+> 已完成自动化检查、真实 Chrome + Tampermonkey + Telegram Web 现场回归，并完成 Greasy Fork V1.0.0 正式首发。
 
 ## 核心能力
 
@@ -22,9 +26,26 @@ Telegram Web 低开销综合增强工具：原生媒体动作恢复、受保护�
 
 ## 安装
 
+### 推荐：Greasy Fork
+
+[![在 Greasy Fork 安装](https://img.shields.io/badge/Greasy%20Fork-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85-brightgreen?style=flat-square)](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)
+
 1. 在 Chrome 中安装 **Tampermonkey**。
-2. 打开 [`Telegram-Ultimate-Enhancer.user.js`](./Telegram-Ultimate-Enhancer.user.js)，复制完整代码到 Tampermonkey 新建脚本并保存。
-3. 打开或刷新 Telegram Web。
+2. 打开 [Telegram Ultimate Enhancer 的 Greasy Fork 正式页面](https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer)。
+3. 点击页面中的绿色安装按钮。
+4. Tampermonkey 弹出安装页面后确认安装。
+5. 打开或刷新 Telegram Web。
+
+### 备用：GitHub 手动安装
+
+1. 打开 [`Telegram-Ultimate-Enhancer.user.js`](./Telegram-Ultimate-Enhancer.user.js)。
+2. 复制完整源码。
+3. 在 Tampermonkey 中新建脚本，粘贴源码并保存。
+4. 打开或刷新 Telegram Web。
+
+### 版本归档
+
+历史正式版本与 Release Asset 请查看 [GitHub Releases](https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases)。
 
 支持：`web.telegram.org`、`webk.telegram.org`、`webz.telegram.org`。
 
@@ -62,7 +83,9 @@ Greasy Fork 上已有受限媒体下载、复制、右键解除、画中画、�
 
 ## 官方地址
 
+**Greasy Fork**：https://greasyfork.org/zh-CN/scripts/590834-telegram-ultimate-enhancer  
 **Repository**：https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer  
+**Releases**：https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/releases  
 **Issues**：https://github.com/xiaohuitongxue88-ctrl/Telegram-Ultimate-Enhancer/issues
 
 ---
